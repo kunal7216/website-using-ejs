@@ -1,3 +1,4 @@
+
 //jshint esversion:6
 
 const express = require("express");
@@ -34,6 +35,7 @@ app.get("/", function(req, res){
     posts: posts
     });
 });
+
 
 
 app.get("/compose", function(req, res){
